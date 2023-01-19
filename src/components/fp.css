@@ -1,0 +1,18 @@
+.allfp{
+    height: 700px;
+    width: 100%;
+    background: url('treeblock.jpg') no-repeat center center/cover;
+}
+.containerfp{
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.boxfp{
+    margin: 10px 100px 0px 20px ; 
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+}

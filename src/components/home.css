@@ -1,0 +1,30 @@
+.containerH{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxH{
+   height: 400px;
+   width: 400px;
+   border: 2px solid black;
+    margin: 2px 5px 0 10px;
+  border-radius: 25px;
+}
+
+.boxH.boxH-1{
+    
+     background:url('flower.jpg') no-repeat center center/cover;
+     
+}
+.boxH.boxH-3{
+    
+    background:url('crops.jpg') no-repeat center center/cover;
+    
+}
+.boxH.boxH-2{
+    
+    background:url('treeblock.jpg') no-repeat center center/cover;
+    
+}
