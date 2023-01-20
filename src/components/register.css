@@ -1,10 +1,13 @@
 .all{
-    height: 700px;
+    height: 800px;
     width: 100%;
-    background: url('blockchain.jpg') no-repeat center center/cover;
+    background: url('blurr.jpg') no-repeat center center/cover;
     /* opacity: 0.9; */
 }
 
+.spaceR{
+   padding-top: 100px;
+}
     
         
 .container{

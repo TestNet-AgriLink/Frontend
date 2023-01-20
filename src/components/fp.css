@@ -1,7 +1,8 @@
 .allfp{
     height: 700px;
     width: 100%;
-    background: url('treeblock.jpg') no-repeat center center/cover;
+    /* background: url('crops.jpg') no-repeat center center/cover; */
+    opacity: 0.8;
 }
 .containerfp{
      display: flex;
@@ -11,8 +12,28 @@
 
 }
 .boxfp{
+    color: blanchedalmond;
     margin: 10px 100px 0px 20px ; 
     height: 400px;
     width: 400px;
-    border: 1px solid black;
+    border: 1px solid rgb(72, 62, 62);
+}
+.containerDet{
+    height: 400px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 0 0 0 40px;
+    background-color: rgb(196, 189, 181);
+}
+
+.spanDet{
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-style: italic;
+
 }

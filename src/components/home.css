@@ -1,13 +1,25 @@
 .containerH{
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
+*/
+background: url('large.gif') no-repeat center center/cover; 
+height: 500px;
 }
 
-.boxH{
-   height: 400px;
-   width: 400px;
+.space{
+    padding-top: 50px;
+}
+.space1{
+    padding-top: 15px;
+}
+.textbox{
+    background-color: rgb(188, 170, 170);
+}
+/* .boxH{
+   
    border: 2px solid black;
     margin: 2px 5px 0 10px;
   border-radius: 25px;
@@ -27,4 +39,4 @@
     
     background:url('treeblock.jpg') no-repeat center center/cover;
     
-}
+} */
